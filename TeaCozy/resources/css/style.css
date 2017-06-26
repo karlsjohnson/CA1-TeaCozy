@@ -114,10 +114,8 @@ header li{
   background-image: url("../images/img-locations-background.jpg");
   background-position: 0px -70px;
 }
-
 .locTitle{
   padding: 60px 0px 15px 0px;
-
 }
 .locMenu{
   display: flex;
