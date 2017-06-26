@@ -1,0 +1,147 @@
+body, a{
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+  font-size: 22px;
+}
+h2{
+  font-size: 40px;
+  margin: 5px;
+}
+h4{
+  margin: 5px;
+}
+header{
+  position: fixed;
+  display: flex;
+  height: 69px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+  background-color: black;
+}
+.logo{
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items : center;
+  padding: 0px 10px;
+  flex: 2 1 150px;
+}
+.logo img{
+  justify-content: flex-start;
+  height: 50px;
+}
+header ul {
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 20px;
+  list-style-type: none;
+}
+header li{
+  display: inline;
+  padding: 5px 20px;
+}
+.center, #mission, #tea, .teaMenu{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.center{
+  position: relative;
+  top: 63px;
+}
+.main{
+  display: block;
+  width: 1200px;
+}
+
+
+
+#mission{
+  height: 700px;
+  background-image: url("..//images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+}
+.mission img{
+  height: 700px;
+
+}
+.missionBar{
+  background-color: black;
+  width: 1200px;
+}
+
+
+
+#tea{
+  margin: 50px 0px;
+  min-width: 1000px;
+  padding-top: 63px;
+}
+.teaTitle{
+  min-width: 1000px;
+}
+.teaTitle h4{
+  margin: 15px 0px;
+}
+.teaMenu{
+  width: 1000px;
+}
+.teaItem {
+  height: 300px;
+  width: 300px;
+  margin: 0px 15px;
+}
+.teaItem img{
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+
+
+#locations{
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-position: 0px -70px;
+}
+
+.locTitle{
+  padding: 60px 0px 15px 0px;
+
+}
+.locMenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 980px;
+}
+.locItem{
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+}
+
+
+
+
+#contact {
+  display: block;
+  text-align: center;
+  min-height: 200px;
+}
+.copyright{
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 20px;
+}
